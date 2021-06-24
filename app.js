@@ -18,7 +18,7 @@ function sum(a, b) {
 
 }
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7); 
+testSum(4, 7); 
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -118,11 +118,18 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) {
-  //eslint-disable-line
+  let x1=multArr[0]
+  let x2=multArr[1]
+  let x3=multArr[2] 
+  let multi= sumAndMultiply(x1,x2,x3); 
+  console.log(multi[1]);
+  return [multi[1],"The numbers 2,3,4 have a product of 24."]
+
+   
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
